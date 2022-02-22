@@ -5,7 +5,7 @@ class PlacesController < ApplicationController
       end
     
       def show
-        @place = Place.find(params["name"])
+        @place = Place.find(params["id"])
       end
     
       def new
